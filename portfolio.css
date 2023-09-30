@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+    ;
 }
 
 
@@ -264,6 +265,15 @@ display: flex;
     height: 100vh;
     width: 50%;
     background-color: rgb(12, 12, 12);
+}
+.pic img{
+    height: 100vh;
+
+    width: 770px;
+
+    background-position: top;
+
+    object-fit: cover;
 }
 .about-me{
     padding: 60px;
